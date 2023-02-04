@@ -1,5 +1,7 @@
 # Leveraging Differential Gene Expression Analysis and Agent-Based Modeling to Detect Biomarkers of Brain Cancer Subtypes
 
+By Rianna Santra
+
 This GitHub repository holds the code that I developed for this five-month long independent project. Most of the code was developed in the months of October through December, and comments in those programs were written in December and January. The GitHub repository was made in January.
 
 ## R Scripts for DEGs
