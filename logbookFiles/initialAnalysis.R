@@ -186,7 +186,6 @@ oligo::boxplot(raw_data_aon, target = "core",
 filter <- colnames(raw_data)[raw_data@phenoData@data$`FactorValue..disease.state.`=="astrocytoma" | raw_data@phenoData@data$`FactorValue..disease.state.`=="NON_TUMOR"]
 raw_data_an <- raw_data[,filter]
 
-
 filter <- colnames(raw_data_an)[raw_data_an@phenoData@data$`FactorValue..tumor.grading.`=="Grade 3" | raw_data_an@phenoData@data$`FactorValue..tumor.grading.`=="--"]
 raw_data_an <- raw_data_an[,filter]
 
@@ -269,3 +268,15 @@ ggplot(dataGG, aes(PC1, PC2)) +
  theme(plot.title = element_text(hjust = 0.5)) +
  scale_shape_manual(values = c(4,15)) +
  scale_color_manual(values = c("antiquewhite4", "blueviolet")) # Figure 5
+
+ # plotting before quantile normalization
+hist(raw_data,lwd=2,xlab='log intensity', which='pm',
+    main="CEL file densities before quantile normalisation") # Figure 1
+
+
+# plotting after quantile normalization
+oligo_normalised <- normalize(raw_data,method='quantile',which='pm')
+
+
+hist(oligo_normalised,lwd=2,xlab='log intensity', which='pm',
+    main="CEL file densities after quantile normalisation") # Figure 2
