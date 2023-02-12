@@ -2,7 +2,7 @@
 
 This was where I created all of the support vector machines and compared them with other machine learning algorithms. 
 
-All files were the same, except they compared the different subtypes of brain cancer with normal tissues. For example, the file 'shap_with_astrocytoma.ipynb' was an astrocytoma classifier, and 'shap_with_GBM.ipynb' was a GBM classifier. 
+All files were the same, except they compared the different subtypes of brain cancer with normal tissues. For example, the file 'astrocytoma-classifier.ipynb' was an astrocytoma classifier, and 'gbm-classifier.ipynb' was a GBM classifier. 
 
 ## Reading in the Data
 
