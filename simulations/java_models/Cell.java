@@ -1,3 +1,5 @@
+// this Java file contains the methods and attributes for the Cell class to represent cancer cells, whether stem or non-stem
+
 package simulations.java_models;
 
 import java.util.Random;

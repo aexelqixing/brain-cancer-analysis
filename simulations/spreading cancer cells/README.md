@@ -10,6 +10,6 @@ This only creates a simulation of healthy cells, adding onto the oxygen-model in
 
 Using the simulation of healthy cells, I only modified it a little bit to include what happens when cancer cells spread throughout. The code itself has more details on how it was implemented. 
 
-## CSCs & CSNCs
+## CSCs & CSNCs csvs
 
 50 simulations were ran for the spreading cancer cell model, and different csvs were created for the cell cycle distribution for cancer stem cells and cancer non stem cells. These were then averaged together to make a stacked area chart. 

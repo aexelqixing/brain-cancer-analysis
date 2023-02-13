@@ -1,3 +1,5 @@
+// this Java file contains the methods for the actual Environment, and here it initializes the lattice structure of 9 non stem cancer cells and 1 stem cell, and simulated for 60 timesteps
+
 package simulations.java_models;
 
 import java.util.ArrayList;
