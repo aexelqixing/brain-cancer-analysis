@@ -1,3 +1,5 @@
+# This file is where I analyzes all of the genes that were enriched between astrocytoma and normal samples. It allowed me to see which genes were upregulated and downregulated between these samples and also do some enrichment analysis.
+
 # Loading annotated data
 library(GEOquery)
 gse108474 <- getGEO('GSE108474')

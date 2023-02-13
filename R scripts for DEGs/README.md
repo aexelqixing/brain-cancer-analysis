@@ -2,9 +2,7 @@
 
 This folder is where I analyzed all of the data from the different datasets [REMBRANDT](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108474) and [Henry Ford Hospital](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse4290). 
 
-## initial-analysis.R
-
-This file is where I started learning how to use R and followed many different tutorials, including but not limited to:
+I started learning how to use R and followed many different tutorials, including but not limited to:
 - [Analyze your own microarray data in R/Bioconductor - BITS wiki](https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor)
 - [Introduction to gene expression microarray analysis in R and Bioconductor](https://gtk-teaching.github.io/Microarrays-R/)
 - [Analyzing DNA Microarray Data Using Bioconductor](https://bioconductor.org/help/course-materials/2002/JAX02/jax-A.pdf)

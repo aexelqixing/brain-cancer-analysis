@@ -1,3 +1,5 @@
+# This file mostly wanted to see the expression levels of the common housekeeping genes of glioblastoma. 
+
 library(hgu133plus2.db)
 ls('package:hgu133plus2.db')
 
